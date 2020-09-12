@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc24d954-5d03-413d-944c-2653ce56ce00" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1gxEuR6JZEbZTQJHlahnQt72ebK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc24d954-5d03-413d-944c-2653ce56ce00" name="Default Changelist" comment="" />
+      <created>1599048065279</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599048065279</updated>
+      <workItem from="1599048066315" duration="2029000" />
+      <workItem from="1599071846801" duration="4235000" />
+      <workItem from="1599134489804" duration="8898000" />
+      <workItem from="1599158252770" duration="4746000" />
+      <workItem from="1599663841999" duration="1881000" />
+      <workItem from="1599672682866" duration="6131000" />
+      <workItem from="1599932280919" duration="7000" />
+      <workItem from="1599932288704" duration="548000" />
+      <workItem from="1599932870989" duration="619000" />
+      <workItem from="1599935500169" duration="4933000" />
+      <workItem from="1599941803942" duration="718000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="175" key="#CLI_Interpreters" timestamp="1599162714144">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="175" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1599162714144" />
+    <state x="586" y="198" key="#Inspections" timestamp="1599163539047">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1599163539047" />
+    <state x="667" y="163" key="#PHP" timestamp="1599162716385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="163" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1599162716385" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599932286058">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599932286058" />
+    <state x="690" y="441" width="556" height="158" key="GitCloneDialog" timestamp="1599161963758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="441" width="556" height="158" key="GitCloneDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599161963758" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1599075248399">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599075248399" />
+  </component>
+</project>

@@ -1,0 +1,37 @@
+body {
+
+    background: url(../resources/background.jpg) repeat;
+    font-size: 14px;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    background: #3c62f6;
+    color: #FFF;
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 26px;
+    padding: 2%;
+
+}
+
+.head-img{
+    width: 30%;
+    position: relative;
+    vertical-align: top;
+    float: contour;
+}
+
+
+
+
+
+
+
+
+
+
+
+

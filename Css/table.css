@@ -1,0 +1,22 @@
+table{
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    border: #000000;
+    background: #2fe0ff;
+    margin: auto;
+}
+
+th{
+    border: black;
+    background: #3c62f6;
+    padding: 20px;
+    margin: auto;
+}
+
+td{
+    border: black;
+    background: #3eb7ef;
+    padding: 20px;
+    margin: auto;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD html 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<HTML lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Lab№1 WEB
+    </title>
+    <meta charset="UTF-8">
+    <title>First web lab</title>
+    <link rel="icon" type="image/png" href="resources/icon.ico">
+    <link rel="stylesheet" type="text/css" href="Css/page.css">
+    <link rel="stylesheet" type="text/css" href="Css/table.css">
+    <link rel="stylesheet" type="text/css" href="Css/input.css">
+</head>
+<body>
+
+<table id="m-table" border="1">
+
+    <tr>
+        <td colspan="2">
+            <header class="title">
+                <span>Kuzmin Arsenii & Burik Dmitriy P3230</span>
+                <span><img  class="head-img" id="image" src="resources/style.jpg" alt="ctul'"> </span>
+                <span>Task№</span>
+                <span>2605</span>
+            </header>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <div>
+                <form>
+                    <table id="page-table-F" border="1">
+                        <tr>
+                            <td colspan="10">
+                                <img id="image-coordinates" src="resources/areas.png" alt="ODZ_pikcha">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="3">Change X [-5;5]</td>
+                            <td class="chooseable" colspan="7"><input id="x-value" type="text" name="x-value"
+                                                                      value="0">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Change</td>
+                            <td class="cell-radio-text-class chooseable">-5</td>
+                            <td class="cell-radio-text-class chooseable">-4</td>
+                            <td class="cell-radio-text-class chooseable">-3</td>
+                            <td class="cell-radio-text-class chooseable">-2</td>
+                            <td class="cell-radio-text-class chooseable">-1</td>
+                            <td class="cell-radio-text-class chooseable">0</td>
+                            <td class="cell-radio-text-class chooseable">1</td>
+                            <td class="cell-radio-text-class chooseable">2</td>
+                            <td class="cell-radio-text-class chooseable">3</td>
+                        </tr>
+
+                        <tr>
+                            <td>Y</td>
+
+                            <td class="chooseable"><input class="cell-radio-class" id="y-value-1" type="radio" name="y-value"
+                                                          value="-5"></td>
+                            <td class="chooseable"><input class="cell-radio-class" id="y-value-2" type="radio" name="y-value"
+                                                          value="-4"></td>
+                            <td class="chooseable"><input class="cell-radio-class" id="y-value-3" type="radio" name="y-value"
+                                                          value="-3"></td>
+                            <td class="chooseable"><input class="cell-radio-class" id="y-value-4" type="radio" name="y-value"
+                                                          value="-2"></td>
+                            <td class="chooseable"><input class="cell-radio-class" id="y-value-5" type="radio" name="y-value"
+                                                          value="-1"></td>
+                            <td class="chooseable"><input class="cell-radio-class" id="y-value-6" type="radio" name="y-value" value="0"
+                                                          checked="checked"></td>
+                            <td class="chooseable"><input class="cell-radio-class" id="y-value-7" type="radio" name="y-value"
+                                                          value="1"></td>
+                            <td class="chooseable"><input class="cell-radio-class" id="y-value-8" type="radio" name="y-value"
+                                                          value="2"></td>
+                            <td class="chooseable"><input class="cell-radio-class" id="y-value-9" type="radio" name="y-value"
+                                                          value="3"></td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td colspan="4">
+                                R
+                            </td>
+                            <td colspan="6">
+
+                                <select size="1" id="r-value" name="r-value">
+                                    <option value="1">1</option>
+                                    <option value="1.5">1.5</option>
+                                    <option value="2">2</option>
+                                    <option value="2.5">2.5</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <div class="buttons">
+                                <button class="sender" type="submit" id="sendButton">Send</button>
+                                <button class="button" type="button" id="clearButton">Clear</button>
+                            </div>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </td>
+        <td>
+            <div id="result" class="custom_scrollbar">
+                <table id="res" border="1">
+                    <thead class="header" id="headerTable">
+                    <tr>
+                        <th id="x-id" class="stickyTh">X</th>
+                        <th class="y-class stickyTh">Y</th>
+                        <th class="r-class stickyTh">R</th>
+                        <th class="som-class stickyTh">Current time</th>
+                        <th class="stt-class stickyTh">Start time</th>
+                        <th class="sct-class stickyTh">Script time</th>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+        </td>
+    </tr>
+</table>
+<script src="Js/front_script.js"></script>
+</body>
+</HTML>
