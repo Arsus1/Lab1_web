@@ -1,4 +1,4 @@
-table{
+table {
     font-family: sans-serif;
     font-size: 16px;
     text-align: center;
@@ -7,14 +7,14 @@ table{
     margin: auto;
 }
 
-th{
+th {
     border: black;
     background: #3c62f6;
     padding: 20px;
     margin: auto;
 }
 
-td{
+td {
     border: black;
     background: #3eb7ef;
     padding: 20px;

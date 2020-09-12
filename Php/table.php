@@ -13,8 +13,8 @@
             <td><?php echo $value[1] ?></td>
             <td><?php echo $value[2] ?></td>
             <td><?php echo $value[3] ?></td>
-            <td><?php echo number_format($value[4], 10, ".", "")*1000000 ?></td>
+            <td><?php echo number_format($value[4], 10, ".", "") * 1000000 ?></td>
             <td><?php echo $value[5] ?></td>
         </tr>
-    <?php }?>
+    <?php } ?>
 </table>

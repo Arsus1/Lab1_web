@@ -1,8 +1,8 @@
 <?php
 function check($x, $y, $r)
 {
-    if (($x >= -$r && $x <= 0 && $y <= 0 && $y >=-$r) ||
-        ($r >= ($x - $y ) && $y <= 0 && $x >= 0) ||
+    if (($x >= -$r && $x <= 0 && $y <= 0 && $y >= -$r) ||
+        ($r >= ($x - $y) && $y <= 0 && $x >= 0) ||
         (sqrt(($x * $x + $y * $y)) <= sqrt(($r * $r + $r * $r)) && $x <= 0 && $y >= 0)) {
         return "<span style='color: green'>True</span>";
     } else {
@@ -23,8 +23,6 @@ session_start();
 date_default_timezone_set('Europe/Moscow');
 $currentTime = date("H:i:s");
 $start = microtime(true);
-
-
 
 
 $x = (float)$_GET['x_val'];

@@ -1,4 +1,4 @@
-.send_form{
+.send_form {
     font-family: sans-serif;
     padding: 1%;
     float: left;
@@ -8,24 +8,8 @@
     margin-top: 2%;
 }
 
-.r-group{
-    margin: 2%;
-}
 
-#r-label{
-    font-style: inherit;
-}
-
-.x-vals{
-    margin: 2%;
-}
-[name="x-val"]:active{background: #9ac5f5
-}
-.y-group{
-    margin: 2%;
-}
-
-.sender, .button{
+.sender, .button {
     display: inline-block;
     color: black;
     background: white;
@@ -40,21 +24,18 @@
     padding-right: 7%;
 
 }
-.sender:hover { background: #e2eafd; }
+
+.sender:hover {
+    background: #e2eafd;
+}
+
 .button:hover {
     background: #e2eafd;
 }
-.button:active {
-    background: #e2eafd;
-    animation: transform 2s infinite;
-}
-.sender:active {
-    background: #e2eafd;
-    animation: transform 2s infinite;
-}
 
-@keyframes transform{
-    0%{
+
+@keyframes transform {
+    0% {
         transform: scale(0.9, 0.9);
     }
     100% {
