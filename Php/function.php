@@ -25,9 +25,9 @@ $currentTime = date("H:i:s");
 $start = microtime(true);
 
 
-$x = (float)$_GET['x_val'];
+$x = (double)$_GET['x_val'];
 $y = (int)$_GET['y_val'];
-$r = (int)$_GET['r_val'];
+$r = (float)$_GET['r_val'];
 
 
 if (checkArea($x, $y, $r)) {
@@ -38,8 +38,6 @@ if (checkArea($x, $y, $r)) {
 $res = check($x, $y, $r);
 $time = microtime(true) - $start;
 $result = array($x, $y, $r, $currentTime, $time, $res);
-
-//console.log("ready");
 
 
 if (!isset($_SESSION['history'])) {

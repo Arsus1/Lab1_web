@@ -9,7 +9,7 @@ function checkX() {
         return false
     } else {
         if (isFinite(X.value)) {
-            if (X.value.trim() >= -5 && X.value <= 5) {
+            if (X.value.trim() > -5 && X.value < 5) {
                 return true
             } else {
                 X.setCustomValidity("Must be (-5;5)");
